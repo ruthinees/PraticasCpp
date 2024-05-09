@@ -6,9 +6,12 @@ private:
   float x, y;
 public:
 
+  //Construtor default
   Vetor2d();
+
+  //Destrutor
   ~Vetor2d();
-  
+
   void setX(float x);
 
   void setY(float y);
@@ -17,6 +20,7 @@ public:
 
   float getY();
 
+  //Print vetor
   void print();
 
   //Sobrecarga do método produto
